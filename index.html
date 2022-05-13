@@ -5,20 +5,25 @@
 		<title>Formulario con ajax</title>
 		<script src="js/jquery-3.3.1.js"></script>
 		<script src="js/ajax.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+		<link href="css/estilos.css" rel="stylesheet">
 	</head>
 	<body>
 		<h1>Enviar formulario por ajax</h1>
 		<form id="cuestionario">
 			<label for="nombre">Nombre:</label>
-			<input type="text" name="nombre" id="nombre">
+			<input type="text" name="nombre" required id="nombre">
 			<br/>
 			<label for="apaterno">Apellido Paterno:</label>
 			<input type="text" name="apaterno" id="apaterno">
+			<br/>
 			<label for="amaterno">Apellido Materno:</label>
 			<input type="text" name="amaterno" id="amaterno">
+			<br/>
 			<label for="ciudad">Ciudad:</label>
 			<input type="text" name="ciudad" id="ciudad">
-			<button type="button" id="enviar">Confirmar</button>
+			<br/>
+			<button type="submit" id="enviar">Confirmar</button>
 		</form>
 	</body>
 </html>

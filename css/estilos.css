@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+form {
+	width: 50%;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #FCE4CA;
+}
+
+form label {
+	display: inline-block;
+}
+
+form input[type="text"]{
+	display: inline-block;
+	margin: 5px 5px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+button {
+	cursor: pointer;
+	width: 30%;
+	margin: 20px auto;
+	padding: 10px;
+	background-color: white;
+	color: black;
+}
+
